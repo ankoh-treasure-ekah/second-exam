@@ -1,0 +1,76 @@
+/***********contains code for first section*******/
+
+.section_one {
+    min-height: 650px;
+    background-image: url("bg-hero-desktop.svg");
+    background-color: rgba(173,216,230, 0.2)
+    
+}
+
+nav {
+
+    img {
+        height: 30px;
+    }
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 48px;
+
+    button {
+        padding: 15px;
+        border: 1px solid;
+        border-color: white;
+        border-radius: 25px;
+        width: 180px;
+        background-color: white;
+        box-shadow: 2px 2px 5px grey;
+        font-family: $header_font_family;
+        font-weight: $header_font_weight;
+        font-size: 15px;
+
+    }
+}
+
+
+
+.hero_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .left_sec {
+        margin: auto 48px;
+
+        h2 {
+            font-size: 50px;
+            font-weight: $header_font_weight;
+            padding-bottom: 20px;
+            font-family: $header_font_family;
+        }
+        .describtion {
+            padding-bottom: 20px;
+            font-size: $font_size;
+            font-family: $body_font_family;
+            font-weight: $body_font_weight
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 18px;
+            border: 1px solid;
+            border-radius: 25px;
+            background-color: $pink;
+            border-color: $pink;
+            font-family: $body_font_family;
+            font-weight: $body_font_weight;
+            color: white;
+            width: 300px;
+        }
+    }
+
+    .right_sec{
+        margin-right: 80px;
+    }
+}

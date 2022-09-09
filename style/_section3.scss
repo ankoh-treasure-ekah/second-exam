@@ -1,0 +1,29 @@
+/***********footer css ******************/
+footer {
+    img {
+        fill: white;
+    }
+
+    background-color: $very_dark_cyan;
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    span {
+        color: white;
+    }
+
+    .division {
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        padding-top: 150px;
+    }
+
+    .first_div{
+        // padding-bottom: 200px;
+        margin-bottom: 100px;
+    }
+}
+

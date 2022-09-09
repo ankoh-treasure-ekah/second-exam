@@ -1,0 +1,102 @@
+/*********section two code *************/
+
+.section_two {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 30px;
+    margin: 10px auto;
+    
+
+
+    .box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border: 1px solid;
+        border-color: white;
+        border-radius: 50px;
+
+        span {
+            font-family: $body_font_family;
+            font-weight: $body_font_weight;
+            color: grey;
+        }
+        
+
+        h1 {
+            color: black;
+        }
+
+        .img {
+            padding: 10px;
+        }
+    }
+
+    .first_illustration {
+        margin-bottom: 50px;
+
+        span {
+            margin-left: 30px;
+        }
+    }
+
+    .second_illustration {
+        margin-bottom: 50px;
+        
+        span {
+            margin-right: 30px;
+        }
+    }
+
+
+    .third_illustration {
+        margin-bottom: 50px;
+       
+        span {
+            margin-left: 30px;
+        }
+    }
+}
+
+.floated_box {
+    // position: absolute;
+    // top: 110em;
+    margin: 50px auto;
+    width: 50%;
+    height: 280px;
+    border: 1px solid;
+    border-radius: 50px;
+    border-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    span {
+        font-family: $header_font_family;
+        font-weight: $header_font_weight;
+        padding-bottom: 15px;
+        
+        
+    }
+
+    button {
+        padding: 18px;
+        border: 1px solid;
+        border-radius: 25px;
+        background-color: $pink;
+        border-color: $pink;
+        font-family: $body_font_family;
+        font-weight: $body_font_weight;
+        color: white;
+        width: 300px;
+        font-size: 20px;
+    }
+
+}
